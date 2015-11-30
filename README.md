@@ -1,3 +1,3 @@
 # My Personal Site
 
-## Angular Single Site
+## Angular Single Page Site
