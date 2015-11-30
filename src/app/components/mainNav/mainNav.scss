@@ -1,0 +1,71 @@
+/* most portrait mobile devices are the base CSS (iPhones 4-6 and most Android phones) */
+.menu {
+  width: 40px;
+  position: absolute;
+  left: 3%;
+  top: 1%;
+  line-height: 2.7rem;
+  .hamburger-menu {
+    div.line {
+      background-color: #888;
+      height: 5px;
+      margin-top: 5px;
+      border-radius: 2px;
+    }
+  }
+}
+
+.title {
+  position: absolute;
+  right: 3%;
+  top: 1%;
+  h1 {
+    margin: 0;
+    color: #fff;
+    font-family: 'League Gothic';
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 2.7rem;
+  }
+}
+
+/* Portrait - iPhone 6+ and large Android phones */
+@media (min-width: 414px) {
+	.menu {
+		left: 1%;
+	}
+	.title {
+		right: 1%;
+	}
+}
+
+/* Landscape - iPhones 4-5 */
+@media (min-width: 480px) {
+
+}
+
+/* Landscape - iPhone 6 and most Android phones */
+@media (min-width: 569px) {
+
+}
+
+/* Landscape - iPhone 6+ and smaller Android tablets */
+@media (min-width: 668px) {
+
+}
+
+/* Portrait - iPads and most Android tablets */
+@media (min-width: 768px) {
+
+}
+
+/* Landscape - Desktops, iPad, and bigger Android tablets*/
+@media (min-width: 1024px) {
+
+}
+
+/* Widescreen Desktops */
+@media (min-width: 1240px) {
+
+}
