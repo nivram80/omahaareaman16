@@ -11,7 +11,7 @@
       restrict: 'E',
       templateUrl: 'app/components/mainNav/mainNav.html',
       controller: MainNavController,
-      controllerAs: 'mnc',
+      controllerAs: 'mainNavCtrl',
       bindToController: true
     };
 
@@ -19,7 +19,12 @@
 
     /** @ngInject */
     function MainNavController() {
+      var mnc = this;
+      mnc.showMenu = false;
 
+      mnc.toggleMenu = function() {
+        mnc.showMenu = !mnc.showMenu;
+      }
     }
   }
 
