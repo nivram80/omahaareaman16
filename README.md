@@ -1,3 +1,3 @@
 # My Personal Site
 
-## Angular Single Page Site
+## AngularJS Single Page Site (incomplete)
